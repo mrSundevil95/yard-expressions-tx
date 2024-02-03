@@ -1,0 +1,54 @@
+.page-container {
+    padding-top: 5rem;
+    min-height: 100%;
+    width: 100%;
+}
+
+.home-page {
+    padding-top: 2rem;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #BCECE0;
+}
+
+.image-background {
+    background-image: url(src/assets/shared_images/YE_logo26.png);
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.page-container {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:10%;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(165, 58, 58, 0.5);
+}
+
+.title-text {
+    opacity: 100;
+}
+
+.fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    padding-right: 1.8rem;
+    padding-left: .7rem;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
